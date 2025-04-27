@@ -1,0 +1,32 @@
+//
+//  PrefixHeader.pch
+//  PetHood
+//
+//  Created by MacPro on 2024/6/18.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+#import "PetHood-Swift.h"
+
+//三方
+#import <Masonry.h>
+//#import <ReactiveCocoa.h>
+#import "YYKit.h"
+
+//分类
+#import "UINavigationController+FDFullscreenPopGesture.h"
+#import "UIColor+Extension.h"
+
+
+//.h
+#import "ZCGUtilities.h"
+
+//公用分类
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
